@@ -50,4 +50,5 @@ func search3(nums []int, target int) int {
 		return start
 	}
 	return -1
+
 }
