@@ -1,15 +1,11 @@
 package main
 
 import (
-	"data-structure-and-algorithm/sort"
+	binary_search "data-structure-and-algorithm/binary-search"
 	"fmt"
-	"math/rand"
 )
 
 func main() {
-	arr := make([]int, 100)
-	for i := 0; i < 100; i++ {
-		arr[i] = rand.Intn(100)
-	}
-	fmt.Println(sort.MergeSort(arr))
+	res := binary_search.KClosestNumbers([]int{1, 2, 4, 6, 8}, 3, 4)
+	fmt.Println(res)
 }

@@ -12,7 +12,7 @@ func lastPosition(nums []int, target int) int {
 		} else if nums[mid] < target {
 			start = mid + 1
 		} else {
-			start = mid // ****
+			start = mid
 		}
 	}
 	if nums[end] == target {
