@@ -6,6 +6,6 @@ import (
 )
 
 func main() {
-	res := binary_search.KClosestNumbers([]int{1, 2, 4, 6, 8}, 3, 4)
+	res := binary_search.MountainSequence([]int{0, 1, 2, 1, 1, 1, 1, 1, 0})
 	fmt.Println(res)
 }

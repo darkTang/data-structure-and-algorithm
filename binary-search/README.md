@@ -1,5 +1,10 @@
 # 二分查找
-前提：有序。
+关键词：
+- array
+- target
+- sorted
+- equal or close to target
+- ...
 
 ## 递归法
 
