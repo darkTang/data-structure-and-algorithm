@@ -1,11 +1,28 @@
 package main
 
-import (
-	binary_search "data-structure-and-algorithm/binary-search"
-	"fmt"
-)
+import "fmt"
+
+func minOperations(start, end int) int {
+	if end < start {
+		return 0
+	}
+
+	count := 0
+	for end > start {
+		if end%2 == 0 {
+			end /= 2
+		} else {
+			end++
+		}
+		count++
+	}
+
+	return count
+}
 
 func main() {
-	res := binary_search.MountainSequence([]int{0, 1, 2, 1, 1, 1, 1, 1, 0})
-	fmt.Println(res)
+	var start, end int
+	fmt.Scanln(&start)
+	fmt.Scanln(&end)
+	fmt.Println(minOperations(start, end))
 }
