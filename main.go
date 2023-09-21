@@ -6,11 +6,6 @@ import (
 )
 
 func main() {
-	grid := [][]bool{
-		{false, false, false},
-		{false, false, false},
-		{false, false, false},
-	}
-	a := bfs.ShortestPath(grid, &bfs.Point{2, 0}, &bfs.Point{2, 2})
+	a := bfs.AlienOrder([]string{"z", "x", "a", "zb", "zx"})
 	fmt.Println(a)
 }
