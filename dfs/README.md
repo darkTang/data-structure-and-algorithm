@@ -14,7 +14,9 @@
 ### 考察形态
 - 二叉树上求值、求路径
   - [Minimum Subtree](https://www.lintcode.com/problem/596/)
-
+  - [Lowest Common Ancestor](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
+  - [Lowest Common Ancestor II](https://www.lintcode.com/problem/474/)
+  - [Lowest Common Ancestor III](https://www.lintcode.com/problem/578/)
 
 ## 二叉树分治法模板
 - 分治法通常采用后序遍历
