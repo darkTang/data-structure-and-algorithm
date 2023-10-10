@@ -26,6 +26,9 @@
     - Search - [Search in a Binary Search Tree](https://leetcode.cn/problems/search-in-a-binary-search-tree/)
     - Delete - [Trim a Binary Search Tree](https://leetcode.cn/problems/trim-a-binary-search-tree/)
     - Iterate - [Binary Search Tree Iterator](https://leetcode.cn/problems/binary-search-tree-iterator/)
+    - [Kth Smallest Element in a BST](https://leetcode.cn/problems/kth-smallest-element-in-a-bst/)
+    - [Closest Binary Search Tree Value](https://leetcode.cn/problems/closest-binary-search-tree-value/)
+    - [Closest Binary Search Tree Value II](https://leetcode.cn/problems/closest-binary-search-tree-value-ii/)
 - 平衡二叉树（AVL）：
   - 前提它是一棵二叉搜索树
   - 它是一颗空树或它的左右两个子树的高度差的绝对值不超过1
