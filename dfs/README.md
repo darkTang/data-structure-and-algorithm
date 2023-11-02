@@ -62,3 +62,14 @@ func divideConquer(root *TreeNode)  {
 	//return 整棵树的结果
 }
 ```
+
+## 组合类DFS
+- 子集问题
+  - 题目
+    - [Subsets](https://leetcode.cn/problems/subsets/)
+    - [Subsets II](https://leetcode.cn/problems/subsets-ii/)
+
+## 排列类DFS
+- 全排列问题
+  - 题目
+    - [Permutations](https://leetcode.cn/problems/permutations/description/)
